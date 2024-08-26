@@ -1,0 +1,75 @@
+.App_medium {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.timer_medium {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.cards_medium {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.card_medium {
+  width: 100px;
+  height: 100px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card-inner_medium {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+/* Flip effect */
+.card_medium.show_medium .card-inner_medium {
+  transform: rotateY(180deg);
+}
+
+.card-front_medium,
+.card-back_medium {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+}
+.card-back_medium {
+  background-color: #fff;
+  transform: rotateY(180deg);
+}
+
+.card-back_medium img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+/* Hide solved cards */
+.card_medium.remove_medium {
+  visibility: hidden;
+}
+
+.card_medium.hide_medium .card-inner_medium {
+  transform: rotateY(0deg);
+}
+
+@media (max-width: 512px) {
+  .card_medium {
+    width: 55px;
+    height: 55px;
+    perspective: 1000px;
+  }
+}

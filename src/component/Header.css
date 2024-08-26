@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+.main_heading_name {
+  font-family: "Bungee", sans-serif;
+  font-size: 3rem;
+  color: rgb(255, 16, 255);
+  text-align: center;
+  padding: 20px 0px;
+  animation: colorChange 2s infinite, growAndFadeIn 2s forwards;
+}
+.brainicon {
+  margin-left: 12px;
+  animation: bounce 1s infinite, colorChange 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes colorChange {
+  0% {
+    color: #ff4b5c;
+  }
+  50% {
+    color: #ff6f91;
+  }
+  100% {
+    color: #ff4b5c;
+  }
+}
+
+@keyframes growAndFadeIn {
+  0% {
+    font-size: 0;
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  50% {
+    font-size: 50px;
+    opacity: 1;
+    transform: translateY(-25%);
+  }
+  100% {
+    font-size: 50px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 566px) {
+  .main_heading_name {
+    font-size: 22px;
+  }
+  .brainicon {
+    display: none;
+  }
+}

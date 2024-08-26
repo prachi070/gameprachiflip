@@ -1,0 +1,47 @@
+/* LoadingPage.css */
+.brain-emoji{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+/* LoadingPage.css */
+.loading-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    flex-direction: column;
+  }
+  
+  .loading-text {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  
+.loading-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 97, 121);
+  }
+  
+  .loading-text {
+    color: #ffffff;
+    font-size: 2rem;
+    animation: fadeUp 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
