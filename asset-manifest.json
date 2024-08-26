@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/gameprachiflip/static/css/main.afec3bc2.css",
+    "main.js": "/gameprachiflip/static/js/main.d9d8a9a0.js",
+    "static/media/christmas.png": "/gameprachiflip/static/media/christmas.e3790576ba5f8a50136c.png",
+    "static/media/emonew.gif": "/gameprachiflip/static/media/emonew.2ceb05430d43f1727aad.gif",
+    "static/media/girl.gif": "/gameprachiflip/static/media/girl.850119f573403c13c537.gif",
+    "static/media/output-onlinegiftools (2).gif": "/gameprachiflip/static/media/output-onlinegiftools (2).f22e16b0946f1a845214.gif",
+    "static/media/panda.jpg": "/gameprachiflip/static/media/panda.e4a214bf01893613d952.jpg",
+    "static/media/squ.jpg": "/gameprachiflip/static/media/squ.198c7149491c364c1377.jpg",
+    "static/media/watermelon.jpg": "/gameprachiflip/static/media/watermelon.96bfd35688872b3ac6c7.jpg",
+    "static/media/cow.jpg": "/gameprachiflip/static/media/cow.4d4effb75b4e50dd3681.jpg",
+    "static/media/house.jpg": "/gameprachiflip/static/media/house.76fe6a17c95f2e4dba6b.jpg",
+    "static/media/brainimg.webp": "/gameprachiflip/static/media/brainimg.baeb64c2c2753b883551.webp",
+    "static/media/burger.jpg": "/gameprachiflip/static/media/burger.d49e631006d7cb7df094.jpg",
+    "static/media/fries.jpg": "/gameprachiflip/static/media/fries.fb9021174663941a228a.jpg",
+    "static/media/monkey.jpg": "/gameprachiflip/static/media/monkey.4b8fe1f60a7e1f78b797.jpg",
+    "static/media/spider.jpg": "/gameprachiflip/static/media/spider.f0ef43e0a1b3a1a384bb.jpg",
+    "static/media/kfc.avif": "/gameprachiflip/static/media/kfc.f149ac5fdead365246c9.avif",
+    "static/media/pizzahut.png": "/gameprachiflip/static/media/pizzahut.f865f681336353469ce1.png",
+    "static/media/car.avif": "/gameprachiflip/static/media/car.ff89195c11f546c9408c.avif",
+    "static/media/bg4.jpeg": "/gameprachiflip/static/media/bg4.64442df98e96aeff2c56.jpeg",
+    "static/media/wowmomo.avif": "/gameprachiflip/static/media/wowmomo.55d5bac9ad09f560ab09.avif",
+    "static/media/butterfly.jpg": "/gameprachiflip/static/media/butterfly.24c0ccc5e2f8586f6ef0.jpg",
+    "static/media/lion.jpeg": "/gameprachiflip/static/media/lion.3fe420b62c7f23cae821.jpeg",
+    "static/media/pumpkin.avif": "/gameprachiflip/static/media/pumpkin.7b0f21ff8c46d5f42f53.avif",
+    "static/media/burgerking.avif": "/gameprachiflip/static/media/burgerking.a2e9d012b0def5ac836d.avif",
+    "static/media/arsalan.avif": "/gameprachiflip/static/media/arsalan.9f81548bc00403726af8.avif",
+    "static/media/domino.avif": "/gameprachiflip/static/media/domino.e40f1028dc0ff27fdba0.avif",
+    "index.html": "/gameprachiflip/index.html",
+    "main.afec3bc2.css.map": "/gameprachiflip/static/css/main.afec3bc2.css.map",
+    "main.d9d8a9a0.js.map": "/gameprachiflip/static/js/main.d9d8a9a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afec3bc2.css",
+    "static/js/main.d9d8a9a0.js"
+  ]
+}
